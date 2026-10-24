@@ -1,0 +1,17 @@
+{
+  "name": "chess-study-overlay",
+  "version": "1.0.0",
+  "description": "Chess study overlay with a Node.js backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0",
+    "chess.js": "^1.0.0",
+    "express": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
